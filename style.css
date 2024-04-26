@@ -1,0 +1,128 @@
+body {
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+   font-size: 54px;
+   color: rgb(86, 84, 84);
+}
+
+h2 {
+   color: rgb(86, 84, 84);
+   font-size: 45px;
+}
+
+h3 {
+   font-size: 24px;
+}
+
+p {
+   font-size: 18px;
+   color: gray;
+}
+
+.me {
+   width: 75%;
+   font-size: 18px;
+   color: gray
+}
+
+.orange {
+   color: orange;
+}
+header {
+   display: flex;
+}
+
+.top-left {
+   width: 50%;
+   margin-left: 8%;
+   margin-top: 100px;
+}
+
+.top-right {
+   width: 50%;
+}
+
+.top-right img {
+   width: 100%;
+}
+
+.link {
+   margin-top: 60px;
+}
+
+a {
+   text-decoration: none;
+   background-image: linear-gradient(orange,red);
+   color: white;
+   padding: 15px 35px;
+   border-radius: 28px;
+}
+
+.about-me {
+   display: flex;
+   padding: 100px 100px 0;
+   background-image: url(images/shapes/7.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin: 100px 0;
+}
+
+.mid-left {
+   width: 50%;
+   margin-left: 230px;
+}
+
+.mid-left img {
+   width: 200%;
+}
+
+.mid-right {
+   margin-left: 32%;
+}
+
+.recipes h2 {
+   text-align: center;
+}
+
+.recipes > p {
+   text-align: center;
+}
+
+.recipe {
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.recipe .recipe-title {
+   padding: 23px 25px;
+   width: 40%;
+   margin: 100px auto;
+   box-shadow: 3px 3px 30px gray;
+   border-radius: 20px;
+}
+
+.recipe-title img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.likes {
+   padding: 20px 0;
+   margin: 5% 8% 10%;
+   display: flex;
+   justify-content: space-evenly;
+   box-shadow: 3px 3px 20px gray;
+   border-radius: 20px;
+}
+
+footer {
+   padding: 20px 100px 100px;
+   text-align: center;
+   background-color: black;
+}
